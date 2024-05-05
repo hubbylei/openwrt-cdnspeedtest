@@ -8,9 +8,9 @@ PKG_NAME:=CloudflareSpeedTest
 PKG_VERSION:=2.2.5
 PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/XIU2/CloudflareSpeedTest/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=9e120c31dadad329b54b5d87047db70bf16b5d3b82c45ccfaac02522cdb92fdf
+PKG_SOURCE_PROTO:=git
+PKG_SOURCE_URL:=https://github.com/hubbylei/CloudflareSpeedTest
+PKG_SOURCE_VERSION:=15894092a24853f8a420e450ac16865c2b10899b
 
 PKG_LICENSE:=GPL-3.0-only
 PKG_LICENSE_FILE:=LICENSE
